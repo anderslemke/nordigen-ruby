@@ -10,7 +10,7 @@ module Nordigen
             @client = client
         end
 
-        def create_requisition(redirect_url:, reference:, institution_id:, user_language: "en", agreement: nil)
+        def create_requisition(redirect_url:, reference:, institution_id:, user_language: "da", agreement: nil)
             # Create requisition. For creating links and retrieving accounts.
             payload = {
                 "redirect": redirect_url,
